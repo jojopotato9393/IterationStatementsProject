@@ -8,11 +8,11 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
-                //TODO - Read each comment and complete its instruction
-                // like the example below
+            //TODO - Read each comment and complete its instruction
+            // like the example below
 
-                //Create a List called "numbers" - DONE!
-                var numbers = new List<int>();
+            //Create a List called "numbers" - DONE!
+            var numbers = new List<int>();
 
             //-----START HERE------------------------------------------
             //Create a variable of type int and name it num
@@ -31,13 +31,14 @@ namespace IterationStatements
                 numbers.Add(num);
 
             } while (num < 100);
+
             // <---- While your variable is less than 100
 
 
 
             // Create a while loop           
             // <--- While num is less than 200
-            while (num < 200) ;
+            while (num < 200) 
             {
 
                 num++;
@@ -61,7 +62,7 @@ namespace IterationStatements
                 Console.WriteLine(myNumbers); 
             }
 
-            Console.WriteLine("");
+            //Console.WriteLine("");
             Console.WriteLine("Decrease:");
 
 
